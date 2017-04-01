@@ -14,6 +14,16 @@
 		5F7006AB1E8F7227006F75B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006A91E8F7227006F75B5 /* LaunchScreen.storyboard */; };
 		5F7006B61E8F7227006F75B5 /* TabBarControllerMSBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006B51E8F7227006F75B5 /* TabBarControllerMSBTests.swift */; };
 		5F7006C11E8F7227006F75B5 /* TabBarControllerMSBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006C01E8F7227006F75B5 /* TabBarControllerMSBUITests.swift */; };
+		5F7006CF1E8F7408006F75B5 /* Google.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006CE1E8F7408006F75B5 /* Google.storyboard */; };
+		5F7006D11E8F7424006F75B5 /* Bing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006D01E8F7424006F75B5 /* Bing.storyboard */; };
+		5F7006D31E8F746E006F75B5 /* GoogleNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006D21E8F746E006F75B5 /* GoogleNews.storyboard */; };
+		5F7006D51E8F749A006F75B5 /* YouTube.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006D41E8F749A006F75B5 /* YouTube.storyboard */; };
+		5F7006D71E8F74C0006F75B5 /* Wikipedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006D61E8F74C0006F75B5 /* Wikipedia.storyboard */; };
+		5F7006D91E8F7521006F75B5 /* Apple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006D81E8F7521006F75B5 /* Apple.storyboard */; };
+		5F7006DB1E8F7575006F75B5 /* Github.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7006DA1E8F7575006F75B5 /* Github.storyboard */; };
+		5F7006DD1E8F8045006F75B5 /* GoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */; };
+		5F7006DF1E8F8054006F75B5 /* BingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006DE1E8F8054006F75B5 /* BingVC.swift */; };
+		5F7006E11E8F8066006F75B5 /* GoogleNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		5F7006BC1E8F7227006F75B5 /* TabBarControllerMSBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerMSBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7006C01E8F7227006F75B5 /* TabBarControllerMSBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerMSBUITests.swift; sourceTree = "<group>"; };
 		5F7006C21E8F7227006F75B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F7006CE1E8F7408006F75B5 /* Google.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Google.storyboard; sourceTree = "<group>"; };
+		5F7006D01E8F7424006F75B5 /* Bing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bing.storyboard; sourceTree = "<group>"; };
+		5F7006D21E8F746E006F75B5 /* GoogleNews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoogleNews.storyboard; sourceTree = "<group>"; };
+		5F7006D41E8F749A006F75B5 /* YouTube.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YouTube.storyboard; sourceTree = "<group>"; };
+		5F7006D61E8F74C0006F75B5 /* Wikipedia.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Wikipedia.storyboard; sourceTree = "<group>"; };
+		5F7006D81E8F7521006F75B5 /* Apple.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Apple.storyboard; sourceTree = "<group>"; };
+		5F7006DA1E8F7575006F75B5 /* Github.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Github.storyboard; sourceTree = "<group>"; };
+		5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleVC.swift; sourceTree = "<group>"; };
+		5F7006DE1E8F8054006F75B5 /* BingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingVC.swift; sourceTree = "<group>"; };
+		5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleNewsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,16 @@
 				5F7006A71E8F7227006F75B5 /* Assets.xcassets */,
 				5F7006A91E8F7227006F75B5 /* LaunchScreen.storyboard */,
 				5F7006AC1E8F7227006F75B5 /* Info.plist */,
+				5F7006CE1E8F7408006F75B5 /* Google.storyboard */,
+				5F7006D01E8F7424006F75B5 /* Bing.storyboard */,
+				5F7006D21E8F746E006F75B5 /* GoogleNews.storyboard */,
+				5F7006D41E8F749A006F75B5 /* YouTube.storyboard */,
+				5F7006D61E8F74C0006F75B5 /* Wikipedia.storyboard */,
+				5F7006D81E8F7521006F75B5 /* Apple.storyboard */,
+				5F7006DA1E8F7575006F75B5 /* Github.storyboard */,
+				5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */,
+				5F7006DE1E8F8054006F75B5 /* BingVC.swift */,
+				5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */,
 			);
 			path = TabBarControllerMSB;
 			sourceTree = "<group>";
@@ -235,9 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7006D51E8F749A006F75B5 /* YouTube.storyboard in Resources */,
 				5F7006AB1E8F7227006F75B5 /* LaunchScreen.storyboard in Resources */,
+				5F7006D71E8F74C0006F75B5 /* Wikipedia.storyboard in Resources */,
+				5F7006DB1E8F7575006F75B5 /* Github.storyboard in Resources */,
+				5F7006D11E8F7424006F75B5 /* Bing.storyboard in Resources */,
+				5F7006D31E8F746E006F75B5 /* GoogleNews.storyboard in Resources */,
+				5F7006CF1E8F7408006F75B5 /* Google.storyboard in Resources */,
 				5F7006A81E8F7227006F75B5 /* Assets.xcassets in Resources */,
 				5F7006A61E8F7227006F75B5 /* Main.storyboard in Resources */,
+				5F7006D91E8F7521006F75B5 /* Apple.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7006DF1E8F8054006F75B5 /* BingVC.swift in Sources */,
 				5F7006A31E8F7227006F75B5 /* ViewController.swift in Sources */,
+				5F7006E11E8F8066006F75B5 /* GoogleNewsVC.swift in Sources */,
 				5F7006A11E8F7227006F75B5 /* AppDelegate.swift in Sources */,
+				5F7006DD1E8F8045006F75B5 /* GoogleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
