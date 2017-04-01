@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Google-->
         <scene sceneID="0Hg-5K-itt">
             <objects>
-                <viewController id="ldc-76-htW" sceneMemberID="viewController">
+                <viewController title="Google" id="ldc-76-htW" customClass="GoogleVC" customModule="TabBarControllerMSB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tw5-5e-gko"/>
                         <viewControllerLayoutGuide type="bottom" id="Maz-Q6-Y5w"/>
@@ -21,15 +22,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L2O-qp-IbM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="662"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ePs-a4-S8F">
+                                <rect key="frame" x="16" y="6" width="345" height="639"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZQ-5A-jOv">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="642"/>
+                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdF-T9-PCm">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="618.5"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </webView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quf-kO-kLu">
-                                        <rect key="frame" x="0.0" y="642" width="375" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b1q-S4-FC1">
+                                        <rect key="frame" x="0.0" y="618.5" width="345" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -39,12 +40,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="L2O-qp-IbM" firstAttribute="leading" secondItem="Tym-VY-A6U" secondAttribute="leading" id="4uQ-Wt-52S"/>
-                            <constraint firstItem="L2O-qp-IbM" firstAttribute="top" secondItem="Tym-VY-A6U" secondAttribute="top" id="CNG-Dr-eWc"/>
-                            <constraint firstAttribute="trailing" secondItem="L2O-qp-IbM" secondAttribute="trailing" id="PVS-tq-eRJ"/>
-                            <constraint firstItem="Maz-Q6-Y5w" firstAttribute="top" secondItem="L2O-qp-IbM" secondAttribute="bottom" constant="5" id="yev-ms-wfm"/>
+                            <constraint firstItem="ePs-a4-S8F" firstAttribute="top" secondItem="Tym-VY-A6U" secondAttribute="topMargin" constant="6" id="MMY-jB-yKs"/>
+                            <constraint firstItem="Maz-Q6-Y5w" firstAttribute="top" secondItem="ePs-a4-S8F" secondAttribute="bottom" constant="22" id="W9q-Q1-uqs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ePs-a4-S8F" secondAttribute="trailing" constant="-2" id="oI7-dg-EH9"/>
+                            <constraint firstItem="ePs-a4-S8F" firstAttribute="leading" secondItem="Tym-VY-A6U" secondAttribute="leadingMargin" id="xnC-DM-7u8"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="b1q-S4-FC1" id="Ccm-1u-80I"/>
+                        <outlet property="webView" destination="fdF-T9-PCm" id="v3t-8c-kvY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tm-jp-0nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

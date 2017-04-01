@@ -39,7 +39,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let appleVC = UIStoryboard.init(name: "Apple", bundle: Bundle.main).instantiateInitialViewController()
         let githubVC = UIStoryboard.init(name: "Github", bundle: Bundle.main).instantiateInitialViewController()
         
-        let arrayOfVC:[UIViewController] = [googleVC!, bingVC!,gooogleNewsVC!, youtubeVC!,wikipediaVC!, appleVC!, githubVC!]
+        let arrayOfVC:[UIViewController] = [googleVC!, bingVC!,gooogleNewsVC!,
+                                            youtubeVC!,wikipediaVC!, appleVC!, githubVC!]
         
         return arrayOfVC as! [ViewController]
         

@@ -24,6 +24,11 @@
 		5F7006DD1E8F8045006F75B5 /* GoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */; };
 		5F7006DF1E8F8054006F75B5 /* BingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006DE1E8F8054006F75B5 /* BingVC.swift */; };
 		5F7006E11E8F8066006F75B5 /* GoogleNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */; };
+		5F7006E31E8F8132006F75B5 /* YouTubeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E21E8F8132006F75B5 /* YouTubeVC.swift */; };
+		5F7006E51E8F8141006F75B5 /* WikiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E41E8F8141006F75B5 /* WikiVC.swift */; };
+		5F7006E71E8F814D006F75B5 /* AppleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E61E8F814D006F75B5 /* AppleVC.swift */; };
+		5F7006E91E8F815D006F75B5 /* GithubVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006E81E8F815D006F75B5 /* GithubVC.swift */; };
+		5F7006EB1E8F868C006F75B5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7006EA1E8F868C006F75B5 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleVC.swift; sourceTree = "<group>"; };
 		5F7006DE1E8F8054006F75B5 /* BingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingVC.swift; sourceTree = "<group>"; };
 		5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleNewsVC.swift; sourceTree = "<group>"; };
+		5F7006E21E8F8132006F75B5 /* YouTubeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeVC.swift; sourceTree = "<group>"; };
+		5F7006E41E8F8141006F75B5 /* WikiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiVC.swift; sourceTree = "<group>"; };
+		5F7006E61E8F814D006F75B5 /* AppleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleVC.swift; sourceTree = "<group>"; };
+		5F7006E81E8F815D006F75B5 /* GithubVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubVC.swift; sourceTree = "<group>"; };
+		5F7006EA1E8F868C006F75B5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +143,11 @@
 				5F7006DC1E8F8045006F75B5 /* GoogleVC.swift */,
 				5F7006DE1E8F8054006F75B5 /* BingVC.swift */,
 				5F7006E01E8F8066006F75B5 /* GoogleNewsVC.swift */,
+				5F7006E21E8F8132006F75B5 /* YouTubeVC.swift */,
+				5F7006E41E8F8141006F75B5 /* WikiVC.swift */,
+				5F7006E61E8F814D006F75B5 /* AppleVC.swift */,
+				5F7006E81E8F815D006F75B5 /* GithubVC.swift */,
+				5F7006EA1E8F868C006F75B5 /* Utils.swift */,
 			);
 			path = TabBarControllerMSB;
 			sourceTree = "<group>";
@@ -302,8 +317,13 @@
 				5F7006DF1E8F8054006F75B5 /* BingVC.swift in Sources */,
 				5F7006A31E8F7227006F75B5 /* ViewController.swift in Sources */,
 				5F7006E11E8F8066006F75B5 /* GoogleNewsVC.swift in Sources */,
+				5F7006E71E8F814D006F75B5 /* AppleVC.swift in Sources */,
+				5F7006E91E8F815D006F75B5 /* GithubVC.swift in Sources */,
+				5F7006EB1E8F868C006F75B5 /* Utils.swift in Sources */,
 				5F7006A11E8F7227006F75B5 /* AppDelegate.swift in Sources */,
+				5F7006E31E8F8132006F75B5 /* YouTubeVC.swift in Sources */,
 				5F7006DD1E8F8045006F75B5 /* GoogleVC.swift in Sources */,
+				5F7006E51E8F8141006F75B5 /* WikiVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

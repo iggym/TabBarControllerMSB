@@ -9,42 +9,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Wikipedia-->
         <scene sceneID="cfy-Ts-gMF">
             <objects>
-                <viewController id="REK-fu-04H" sceneMemberID="viewController">
+                <viewController title="Wikipedia" id="REK-fu-04H" customClass="WikiVC" customModule="TabBarControllerMSB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xtX-d9-I8M"/>
                         <viewControllerLayoutGuide type="bottom" id="4vo-LL-YDw"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zDN-Fg-L7g">
+                    <stackView key="view" opaque="NO" contentMode="scaleToFill" axis="vertical" id="gKv-sh-Ix3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F3q-Z6-Ymn">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="663"/>
-                                <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Joj-dY-mzO">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="642.5"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </webView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77K-9Y-3IT">
-                                        <rect key="frame" x="0.0" y="642.5" width="375" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SVo-7e-qgC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="646.5"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9EY-Iq-XbN">
+                                <rect key="frame" x="0.0" y="646.5" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="4vo-LL-YDw" firstAttribute="top" secondItem="F3q-Z6-Ymn" secondAttribute="bottom" constant="4" id="OGs-aR-tbe"/>
-                            <constraint firstItem="F3q-Z6-Ymn" firstAttribute="leading" secondItem="zDN-Fg-L7g" secondAttribute="leading" id="QVG-aI-AMX"/>
-                            <constraint firstAttribute="trailing" secondItem="F3q-Z6-Ymn" secondAttribute="trailing" id="jUt-Mn-6hd"/>
-                            <constraint firstItem="F3q-Z6-Ymn" firstAttribute="top" secondItem="zDN-Fg-L7g" secondAttribute="top" id="rgD-Hn-wlv"/>
-                        </constraints>
-                    </view>
+                    </stackView>
+                    <connections>
+                        <outlet property="label" destination="9EY-Iq-XbN" id="t6N-Ah-6gM"/>
+                        <outlet property="webView" destination="SVo-7e-qgC" id="gy8-si-iPb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PKX-qP-VCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

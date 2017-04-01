@@ -9,41 +9,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Github-->
         <scene sceneID="38C-2L-69O">
             <objects>
-                <viewController id="bCB-oL-zoV" sceneMemberID="viewController">
+                <viewController title="Github" id="bCB-oL-zoV" customClass="GithubVC" customModule="TabBarControllerMSB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4px-CU-m13"/>
                         <viewControllerLayoutGuide type="bottom" id="eFN-pd-Xbf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Cia-lY-e41">
+                    <stackView key="view" opaque="NO" contentMode="scaleToFill" axis="vertical" id="ZQZ-J8-NYm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hYQ-zg-pdo">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="662.5"/>
-                                <subviews>
-                                    <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-3r-yuX">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="642"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </webView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2i-ie-g2r">
-                                        <rect key="frame" x="0.0" y="642" width="375" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxJ-Mp-0IK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="646.5"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9P-HS-PV5">
+                                <rect key="frame" x="0.0" y="646.5" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="hYQ-zg-pdo" firstAttribute="top" secondItem="Cia-lY-e41" secondAttribute="top" id="2tF-Eg-Ld5"/>
-                            <constraint firstAttribute="trailing" secondItem="hYQ-zg-pdo" secondAttribute="trailing" id="CTA-ez-Jgu"/>
-                            <constraint firstItem="hYQ-zg-pdo" firstAttribute="leading" secondItem="Cia-lY-e41" secondAttribute="leading" id="nVb-yr-Az5"/>
-                        </constraints>
-                    </view>
+                    </stackView>
+                    <connections>
+                        <outlet property="label" destination="y9P-HS-PV5" id="o2b-BL-P4I"/>
+                        <outlet property="webView" destination="dxJ-Mp-0IK" id="7Nx-N2-Plz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8C5-XM-rOI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

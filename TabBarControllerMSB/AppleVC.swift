@@ -1,5 +1,5 @@
 //
-//  BingVC.swift
+//  AppleVC.swift
 //  TabBarControllerMSB
 //
 //  Created by Iggy Mwangi on 4/1/17.
@@ -9,14 +9,13 @@
 import Foundation
 import UIKit
 
-class BingVC : UIViewController {
-    
+class AppleVC : UIViewController {
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        loadWebView(webView: webView, webAddress: "https://www.bing.com", label: label)
+                loadWebView(webView: webView, webAddress: "https://www.apple.com", label: label)
     }
     
     
