@@ -1,7 +1,7 @@
 # TabBarControllerMSB
 TabBarController using multiple storyboards
 
-a TabBarController using multiple storyboards to ease development. Each Tab uses a separate storyboad.
+a TabBarController using multiple storyboards to ease development. Each Tab uses a separate storyboard.
 
 This technique is a solution to the [Convoluted Monolithinc Complex Storyboard problem](https://www.quora.com/Which-is-better-for-iOS-apps-storyboards-or-programmatic-development) when targeting iOS 8 and below.
 
