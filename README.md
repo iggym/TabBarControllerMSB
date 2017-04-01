@@ -1,12 +1,15 @@
 # TabBarControllerMSB
 TabBarController using multiple storyboards
-
-a TabBarController using multiple storyboards to ease development. Each Tab uses a separate storyboard.
+---
+This project demonstrates implementing TabBarController using multiple storyboards to ease development. 
+Each Tab uses a separate storyboard enabling easier and safer development. 
+The technique can also mix storyboards and pure code view controller.
 
 This technique is a solution to the [Convoluted Monolithinc Complex Storyboard problem](https://www.quora.com/Which-is-better-for-iOS-apps-storyboards-or-programmatic-development) when targeting iOS 8 and below.
 
 If your app is targeting iOS 9 and above, you could use [Storyboard references](https://www.raywenderlich.com/115697/ios-9-storyboards-tutorial-whats-new-in-storyboards)
-
+---
+##  The germane sections 
 Arrays of images and titles in the app delegate
 ```swift
  let arrayOfImages = [ "1", "2", "3", "4", "5", "6", "7"]
