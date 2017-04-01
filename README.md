@@ -46,4 +46,5 @@ setting up the tabbarcontroller when the app starts
 ![google](goog.png)
 ![bing](bing.png)
 ![apple](aapl.png)
+![more](more.png)
 
